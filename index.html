@@ -144,6 +144,51 @@
 			<p class="visible-xs">col-xs-6</p>
 		</div>
 		</div>
+
+		<!-- COLUMN WRAPPING Default-->
+		<h2>Column wrapping</h2>
+			<div class="row show-grid">
+				<div class="col-md-9">
+					<p>col-md-9</p>
+				</div>
+				<div class="col-md-5">
+					<p>col-md-5</p>
+				</div>
+				<div class="col-md-5">
+					<p>col-md-5</p>
+				</div>
+		
+			</div>
+			<div class="row show-grid">
+				<div class="col-md-2">
+					<p>col-md-2</p>
+				</div>	
+			</div>
+			<h2>Column Reset</h2>
+			<div class="row show-grid">
+				<!-- div.col-sm-6.col-md-3*4>p.visible-sm{col-sm-6}+p.visible-md{col-md-3} THE + CREATES A CHILD emit-->
+				<div class="col-sm-6 col-md-3">
+					<p class="visible-sm">col-sm-6</p>
+					<p class="visible-md">col-md-3</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dolores aliquam delectus eveniet nam nihil animi, dolorem unde, ex quam ipsa quasi tenetur ullam, ipsum porro voluptatum omnis libero aperiam.</p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<p class="visible-sm">col-sm-6</p>
+					<p class="visible-md">col-md-3</p>
+				</div>
+				<!-- CLEARS LINE THEN ONLY SHOW SM BLOCK -->
+				<span class="clearfix visible-sm-block"></span>
+				<div class="col-sm-6 col-md-3">
+					<p class="visible-sm">col-sm-6</p>
+					<p class="visible-md">col-md-3</p>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+					<p class="visible-sm">col-sm-6</p>
+					<p class="visible-md">col-md-3</p>
+				</div>
+			</div>
+
 	</div> <!-- div.container tab-->
 
 	
